@@ -1,0 +1,31 @@
+{
+  "name": "fargate-example",
+  "version": "1.0.0",
+  "description": "Fargate hello world",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy",
+    "synth": "cdk synth"
+  },
+  "author": {
+    "name": "Dennis O'Keeffe",
+    "url": "https://dennisokeeffe.com"
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.28",
+    "typescript": "~3.7.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-ec2": "^1.60.0",
+    "@aws-cdk/aws-ecs": "^1.60.0",
+    "@aws-cdk/aws-ecs-patterns": "^1.60.0",
+    "@aws-cdk/core": "^1.57.0",
+    "@types/dotenv": "^8.2.0",
+    "aws-sdk": "^2.738.0",
+    "dotenv": "^8.2.0"
+  }
+}
